@@ -1,0 +1,43 @@
+.radio-selector {
+    h3 {
+        width: 100%;
+    }
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .radio-button {
+        width: 80%;
+        margin: 5px;
+        padding: 3px;
+    }
+}
+.radio-row {
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 10px;
+    .radio-button {
+        padding: 0px;
+        width: 90%;
+    }
+}
+
+/* SizeTextBox.css */
+.size-text-box {
+    width: 100%;
+    min-height: 2em; /* Set the initial height to two text lines */
+    max-height: 10em; /* Set the maximum height */
+    padding: 8px;
+    font-size: 16px;
+    resize: none; /* Disable resizing */
+    box-sizing: border-box;
+    overflow-y: auto; /* Enable vertical scrollbar if content exceeds max-height */
+    background-color: rgba(255, 255, 255, 0.166);
+    border-radius: 10px;
+    border: none;
+}
